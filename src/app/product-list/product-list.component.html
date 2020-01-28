@@ -18,6 +18,21 @@
     (notify) = "onNotify()">
   </app-product-alerts>
 </div>
+<br>
+<div class="ui-g ui-fluid">
+    <div class="ui-g-12 ui-md-4">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="pi pi-user" style="line-height: 1.25;"></i></span>
+            <input type="text" pInputText placeholder="Username">         
+        </div>
+    </div>
+</div>
+<br>
+<p-carousel [value]="cars">
+    <ng-template let-car pTemplate="item">
+        Content to display
+    </ng-template>
+</p-carousel>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
